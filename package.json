@@ -13,6 +13,7 @@
     "sass": "^1.58.1",
     "web-vitals": "^2.1.4"
   },
+  "homepage": "https://lalbi94.github.io/portfolio/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
