@@ -1,0 +1,108 @@
+@import "../../../styles/Core.scss";
+
+@import "../../../styles/Core.scss";
+
+#contact-main {
+    #stage-p {
+        color: white;
+        font-size: 2rem;
+        text-align: center;
+        color: white;
+        width: 100%;
+        font-weight: bold;
+        
+        a {
+            padding: 0.3%;
+            font-weight: bold;
+            border: 3px solid white;
+            background: $base_background_component;
+            border-radius: 100%;
+            text-decoration: none;
+            color: white;
+        }
+    }
+
+    #contact-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        flex-direction: row;
+        background: $base_background;
+    
+        .card {
+            width: 500px;
+            height: 550px;
+            background-color: #fff;
+            box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            margin: 20px;
+            float: left;
+    
+            @media (max-width: 1200px) {
+                width: 65%;
+				height: auto;
+            }
+        }
+
+        .card:hover {
+            transition: 1s;
+            transform: scale(1.01);
+        }
+          
+        .card-header {
+            display: flex;
+            flex-direction: row;
+            font-size: $font_little_title;
+            justify-content: center;
+            align-items: center;
+            background-color: $base_background_component;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+
+            h3 {
+                .link-repo {
+                    color: white;
+                }
+    
+                .pseudo::selection {
+                    background: white;
+                    color: $base_background_component;
+                }
+            }
+        }
+        
+        .card-body {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+
+            .img-link {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .img-contact {
+                    width: 80%;
+                }
+
+                .img-contact:hover {
+                    transition: 1s;
+                    transform: rotate(720deg);
+                }
+            }
+        }
+
+        @media (max-width: 1600px) {
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+    }
+}

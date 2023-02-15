@@ -1,0 +1,40 @@
+@import "../../../styles/Core";
+
+.main-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	background-color: $base_background;
+	min-height: 100vh;
+
+	.bilou-face {
+		height: 40vmin;
+		border-radius: 100%;
+		border: 5px solid white;
+		pointer-events: none;
+	}
+
+	.portfolio-title {
+		color: $base_font_color;
+		font-weight: bold;
+
+		#title {
+			font-size: $font_big_title;
+		}
+
+		#subtitle {
+			font-size: $font_title;
+		}
+	}
+
+	#discover-btn {
+		font-family: $font_base;
+		font-size: $font_text;
+		border: 5px solid white;
+		background: white;
+		padding: 1.25%;
+		border-radius: 10%;
+	}
+}

@@ -1,0 +1,27 @@
+@import url('https://fonts.cdnfonts.com/css/oswald-4');
+
+/**
+  * Palette
+  */
+$base_background: #38bdf8;
+$base_contour_obj: #0ea5e9;
+$base_background_component: #0c4a6e;
+$base_font_color: #FFF;
+
+/**
+  * Font
+  */
+$font_base: 'Oswald', sans-serif;
+$font_big_title: 36px;
+$font_medium_title: 25px;
+$font_title: 23px;
+$font_little_title: 20px;
+$font_text: 19px;
+
+/**
+  * Parametre globaux
+  */
+::selection {
+  background: $base_background_component;
+  color: white;
+}

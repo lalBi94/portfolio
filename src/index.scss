@@ -1,0 +1,9 @@
+@import "./styles/Core";
+
+body {
+  margin: 0;
+  font-family: $font_base;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: $base_background;
+}
